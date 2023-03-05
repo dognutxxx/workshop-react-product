@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Component } from "react";
-import Common from "./common";
 export default class report extends Component {
   render() {
     return (
