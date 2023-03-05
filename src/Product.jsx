@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import axios from "axios";
 
-const API_FROM_RECDER = "https://six5230035-api-nodejs.onrender.com";
+const API_FROM_RECDER = "https://api-teams.onrender.com/products";
 export default class Product extends Component {
   state = {
     data: [],
@@ -13,7 +13,7 @@ export default class Product extends Component {
   getData = async () => {
     try {
       await axios
-        .get(`${API_FROM_RECDER}/products`)
+        .get(`${API_FROM_RECDER}`)
         .then((response) => {
           let res = response.data;
 
