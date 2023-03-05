@@ -10,6 +10,7 @@ export default class Product extends Component {
     data: [],
   };
 
+  //test
   getData = async () => {
     try {
       await axios
