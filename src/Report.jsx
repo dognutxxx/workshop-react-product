@@ -11,7 +11,7 @@ const BASE_URL = Common.API_URL;
 export default class report extends Component {
   state = {
     zipcode: 33000,
-    amphur_code: 0,
+    amphur_code: 0, 
     amphur_name: "",
     province_code: 0,
     province_name: "",
